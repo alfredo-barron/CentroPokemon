@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+   <ImageView
+        android:id="@+id/pokeball_icon"
+        android:layout_width="68dp"
+        android:layout_height="68dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="4dp"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:src="@drawable/pokeball" />
+
+    <TextView
+        android:id="@+id/pokemon_name"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_weight="1"
+        android:text="Pokemon Name"
+        android:textSize="28sp"
+        android:textStyle="bold"/>
+
+</LinearLayout>

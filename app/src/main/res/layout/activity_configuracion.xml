@@ -1,0 +1,95 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                tools:context="com.alfredobarron.proyectofinal.Configuracion">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/data_access"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/data_access"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:ellipsize="marquee"
+            android:gravity="center_horizontal"/>
+
+        <LinearLayout
+            android:layout_below="@id/data_access"
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#828080"
+            android:orientation="horizontal"
+            android:layout_marginBottom="5dp"
+            />
+
+        <EditText
+            android:id="@+id/usuario_edit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:inputType="text"
+            android:singleLine="true"/>
+
+        <EditText
+            android:id="@+id/password_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionUnspecified"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:singleLine="true"/>
+
+        <TextView
+            android:id="@+id/data_entrenador"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/data_entrenador"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:ellipsize="marquee"
+            android:gravity="center_horizontal"/>
+
+        <LinearLayout
+            android:layout_below="@id/data_access"
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#828080"
+            android:orientation="horizontal"
+            android:layout_marginBottom="5dp"
+            />
+
+        <EditText
+            android:id="@+id/nombre_edit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:inputType="text"
+            android:singleLine="true"/>
+
+        <EditText
+            android:id="@+id/apellidos_edit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:inputType="text"
+            android:singleLine="true"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="98dp"
+        android:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/intenta"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sorry"
+        android:textSize="30dp"
+        android:gravity="center_horizontal"
+        android:drawableTop="@drawable/ic_action_refresh"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone"/>
+
+    <ListView android:id="@+id/pokemonlist"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_atrapar"
+        android:layout_gravity="center_vertical"
+        android:drawableTop="@drawable/ic_atrapar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:visibility="gone"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        style="?android:textAppearanceButton"
+        android:background="#5cb85c"
+        android:textColor="#fff"
+        android:shadowColor="#4cae4c"
+        android:text="@string/action_team"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+</RelativeLayout>

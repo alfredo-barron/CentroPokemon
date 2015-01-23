@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Centro Pokémon</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Login -->
+    <string name="title_activity_login">Login</string>
+    <string name="welcome">Bienvenido entrenador(a)</string>
+    <string name="user">Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="action_sign_in">Entrar</string>
+    <string name="action_register">Registrarse</string>
+    <string name="action_sign_in_short">Entrar</string>
+    <string name="ingrese">Ingrese los datos</string>
+
+    <!-- Registro -->
+    <string name="title_activity_register">Registro</string>
+    <string name="data_access">Datos de acceso</string>
+    <string name="data_entrenador">Datos del entrenador</string>
+    <string name="name">Nombre(s)</string>
+    <string name="last_name">Apellidos</string>
+    <string name="birthday">Fecha de nacimiento</string>
+    <string name="date">11 de Septiembre, 1992</string>
+    <string name="birth_site">Lugar de nacimiento</string>
+    <string name="choose_one">Seleciona uno ...</string>
+    <string name="region1">Kanto</string>
+    <string name="region2">Jotho</string>
+    <string name="region3">Sinnoh</string>
+    <string name="region4">Hoenn</string>
+    <string name="region5">Almia</string>
+
+    <string-array name="regiones">
+        <item>@string/region1</item>
+        <item>@string/region2</item>
+        <item>@string/region3</item>
+        <item>@string/region4</item>
+        <item>@string/region5</item>
+    </string-array>
+
+    <string name="sexo">Sexo</string>
+    <string name="man">Hombre</string>
+    <string name="woman">Mujer</string>
+    <string name="leader">¿Eres lider?</string>
+    <string name="yes">Si</string>
+    <string name="no">No</string>
+    <string name="site_residence">Lugar de residencia</string>
+    <string name="accept">Hecho</string>
+    <string name="cancel">Cancelar</string>
+
+    <!-- Menu Principal -->
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="title_section1">Inicio</string>
+    <string name="title_section2">Perfil</string>
+    <string name="title_section3">Pokémon</string>
+    <string name="title_section4">Pokédex</string>
+    <string name="title_section5">Regenerador</string>
+    <string name="title_section6">Descanso</string>
+    <string name="title_section7">Configuración</string>
+    <string name="title_section8">Cerrar sesión</string>
+    <string name="title_section9">Información</string>
+    <string name="title_section10">Tipo</string>
+    <string name="title_section11">Habilidades</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_index">Index</string>
+    <string name="title_activity_pokedex">Pokedex</string>
+    <string name="sorry">Intente de nuevo</string>
+    <string name="action_team">Atrapar</string>
+
+    <!-- Datos del pokemon -->
+    <string name="name_pokemon">{name}</string>
+    <string name="alias_pokemon">{alias} \n {genero} \n {nivel} \n {estatus} \n {ht}</string>
+    <string name="enviar">Enviar al regenerador</string>
+    <string name="cerrar">Cerrar</string>
+    <string name="title_activity_atrapar">Atrapar</string>
+    <string name="notices">No tiene ninguna noticia</string>
+
+    <!-- Atrapar pokemon -->
+    <string name="title">Pokebola</string>
+    <string name="content">¿Desea atrapar al pokemon?</string>
+    <string name="atrapar">Si</string>
+    <string name="cancelar">No</string>
+
+    <string name="title_activity_configuracion">Configuración</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_hecho">Hecho</string>
+    <string name="aviso">Regenerador vacio</string>
+    <string name="disponible">Habitación disponible</string>
+    <string name="no_disponible">Habitación en uso</string>
+
+    <string name="normal">Pokemon en estado normal</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="aun_no">Aún no</string>
+
+    <string name="batalla">¿Desea hacer una batalla pokemon?</string>
+
+    <string name="soltar">¿Estas seguro de dejar libre a {name}</string>
+</resources>
